@@ -12,12 +12,16 @@ This project was built as part of the Web Programming Lab 12 practical assignmen
 
 ---
 
+## Visual Design
+
+The storefront uses a bold **Night Market** visual theme across all pages. A cool indigo and midnight palette anchors the interface, with coral highlights and soft blue surfaces for contrast. The home page features a dark gradient hero, while product cards and category panels use rounded corners, subtle shadows, and hover transitions. The shared responsive design lives in `css/style.css`, so the shop, product details, cart, checkout, contact, about, and confirmation pages all follow the same visual system.
+
 ## Technologies Used
 
 | Technology | Role |
 |---|---|
 | **HTML5** | Semantic page structure across all 8 pages; accessibility attributes (`aria-*`, roles, labels) |
-| **CSS3** | Complete design system using custom properties; responsive layout with Flexbox and Grid; no external UI library |
+| **CSS3** | Responsive Night Market design system with indigo, coral, and pale blue colors; custom properties, Flexbox, and Grid; no external UI library |
 | **Vanilla JavaScript** | Product rendering, cart logic, form validation, XML parsing via `fetch()` and `DOMParser` |
 | **XML** | Product catalogue stored in `data/products.xml`; parsed at runtime — no hardcoded product arrays anywhere |
 
@@ -156,8 +160,8 @@ Lab12/
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/madhur-sudo/lab12-online-shopping-website.git
-   cd lab12-online-shopping-website
+   git clone https://github.com/khushi-btw/Lab-12.git
+   cd Lab-12
    ```
 
 2. **Open in VS Code**
@@ -182,13 +186,13 @@ Lab12/
 
 ## GitHub Repository
 
-[https://github.com/madhur-sudo/lab12-online-shopping-website](https://github.com/madhur-sudo/lab12-online-shopping-website)
+[https://github.com/khushi-btw/Lab-12](https://github.com/khushi-btw/Lab-12)
 
 ---
 
 ## Live Demo
 
-[https://madhur-sudo.github.io/lab12-online-shopping-website/](https://madhur-sudo.github.io/lab12-online-shopping-website/)
+[https://khushi-btw.github.io/Lab-12/](https://khushi-btw.github.io/Lab-12/)
 
 Deployed automatically via GitHub Actions on every push to `main`. See `.github/workflows/pages.yml` for the workflow configuration.
 
