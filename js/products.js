@@ -1,5 +1,5 @@
 /**
- * products.js — Morrow Supply product utilities
+ * products.js — Petal & Pixel product utilities
  * Depends on main.js (loadXML, parseProducts, findProductById, formatINR, addToCart).
  * Provides: loadXML(), parseProducts(), findProductById(),
  *           renderProductCard(), handleXMLError(), getProductImageAlt()
@@ -93,7 +93,7 @@ function renderProductCard(product) {
  * @param {string} [containerId='products-grid']
  */
 function handleXMLError(error, containerId = 'products-grid') {
-  console.error('[Morrow Supply] XML load error:', error);
+  console.error('[Petal & Pixel] XML load error:', error);
 
   const container = document.getElementById(containerId) || document.querySelector('main');
   if (!container) return;

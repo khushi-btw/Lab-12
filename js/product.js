@@ -1,5 +1,5 @@
 /**
- * product.js — Morrow Supply Product Detail Page
+ * product.js — Petal & Pixel Product Detail Page
  * Handles: loading a single product by URL ?id=, populating detail view,
  *          quantity selector, add-to-cart
  */
@@ -46,7 +46,7 @@
 
   function populateProduct(product) {
     // Page title
-    document.title = `${product.name} — Morrow Supply`;
+    document.title = `${product.name} — Petal & Pixel`;
 
     // Breadcrumb
     const breadcrumbName = document.getElementById('breadcrumb-product-name');

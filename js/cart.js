@@ -1,5 +1,5 @@
 /**
- * cart.js — Morrow Supply Cart Page
+ * cart.js — Petal & Pixel Cart Page
  * Loads cart from localStorage, retrieves live product data from XML,
  * renders cart rows, handles qty changes, removal, and totals.
  * Depends on: main.js, products.js
@@ -16,7 +16,7 @@
       bindCartEvents(xmlDoc);
       renderCart(xmlDoc);
     } catch (err) {
-      console.error('[Morrow Supply] Cart XML error:', err);
+      console.error('[Petal & Pixel] Cart XML error:', err);
       showCartError();
     }
   });

@@ -1,14 +1,14 @@
-# Morrow Supply — Online Shopping Website
+# Petal & Pixel — Online Shopping Website
 
 ## Lab 12: Online Shopping Website using HTML, CSS, JavaScript and XML
 
-> **"Useful things. Chosen well."**
+> **"Pretty things. Serious function."**
 
 ---
 
 ## Project Overview
 
-This project was built as part of the Web Programming Lab 12 practical assignment. The goal was to design and implement a fully functional multi-page online shopping website using only front-end technologies — HTML, CSS, JavaScript, and XML — without any back-end framework or database. The result is **Morrow Supply**, a fictional online store selling everyday tech and workspace products, complete with a live product catalogue, shopping cart, checkout flow, and order confirmation.
+This project was built as part of the Web Programming Lab 12 practical assignment. The goal was to design and implement a fully functional multi-page online shopping website using only front-end technologies — HTML, CSS, JavaScript, and XML — without any back-end framework or database. The result is **Petal & Pixel**, a fictional online store selling everyday tech and workspace products, complete with a live product catalogue, shopping cart, checkout flow, and order confirmation.
 
 ---
 

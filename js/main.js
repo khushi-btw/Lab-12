@@ -1,5 +1,5 @@
 /**
- * main.js — Morrow Supply shared utilities
+ * main.js — Petal & Pixel shared utilities
  * Loaded on every page. Provides: INR formatter, cart helpers,
  * XML loader, navigation activation, mobile menu, and toast notifications.
  */

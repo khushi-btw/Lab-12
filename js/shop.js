@@ -1,5 +1,5 @@
 /**
- * shop.js — Morrow Supply Shop Page
+ * shop.js — Petal & Pixel Shop Page
  * Handles: loading products from XML, search, category filter, sort, rendering grid
  */
 

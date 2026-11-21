@@ -1,5 +1,5 @@
 /**
- * checkout.js — Morrow Supply Checkout Page
+ * checkout.js — Petal & Pixel Checkout Page
  * Validates form, renders order summary from XML, places demo order.
  * Depends on: main.js, products.js
  */
@@ -22,7 +22,7 @@
       renderOrderSummary(xmlDoc, cart);
       bindFormSubmit(xmlDoc, cart);
     } catch (err) {
-      console.error('[Morrow Supply] Checkout XML error:', err);
+      console.error('[Petal & Pixel] Checkout XML error:', err);
       var listEl = document.getElementById('checkout-items-list');
       if (listEl) listEl.innerHTML = '<li>Could not load order details.</li>';
     }
