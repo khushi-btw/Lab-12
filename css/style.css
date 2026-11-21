@@ -2091,3 +2091,91 @@ p {
     height: 56px;
   }
 }
+
+/* ============================================================
+   16. NIGHT MARKET REDESIGN
+   A high-contrast indigo, coral and sky palette for every page.
+   ============================================================ */
+:root {
+  --color-ivory: #f4f6fb;
+  --color-ink: #172033;
+  --color-green: #4f46e5;
+  --color-olive: #64748b;
+  --color-terra: #fb7185;
+  --color-stone: #e1e7f1;
+  --color-white: #ffffff;
+  --color-error: #c2415d;
+  --color-success: #14805e;
+  --font-serif: "Trebuchet MS", "Segoe UI", sans-serif;
+  --font-sans: "Segoe UI", system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  --radius-sm: 9px;
+  --radius-md: 14px;
+  --radius-card: 20px;
+  --shadow-card: 0 10px 28px rgba(23, 32, 51, .07);
+  --shadow-hover: 0 18px 42px rgba(55, 48, 163, .16);
+  --max-width: 1320px;
+}
+
+body { background: var(--color-ivory); }
+h1, h2, h3, h4, h5, h6 { letter-spacing: -.035em; font-weight: 700; }
+.site-header { background: rgba(255,255,255,.94); border-bottom: 1px solid #e4e8f0; box-shadow: 0 5px 22px rgba(23,32,51,.045); backdrop-filter: blur(16px); }
+.logo-name, .footer-logo { letter-spacing: .11em; }
+.nav-link { font-weight: 600; }
+.nav-links a.active, .nav-link.active, .nav-active { color: var(--color-green); }
+.nav-search { border-radius: 999px; background: #f4f6fb; border-color: #e5e9f2; }
+.nav-search-input { background: transparent; }
+.nav-cart { border-radius: 50%; background: #eef0ff; color: #4338ca; }
+.cart-count { background: var(--color-terra); color: #fff; }
+
+.btn { border-radius: 999px; font-weight: 700; padding: .78rem 1.45rem; }
+.btn-primary, .btn--primary { background: #4f46e5; border-color: #4f46e5; color: #fff; box-shadow: 0 6px 14px rgba(79,70,229,.18); }
+.btn-primary:hover, .btn--primary:hover { background: #3730a3; border-color: #3730a3; color: #fff; transform: translateY(-2px); }
+.btn-secondary, .btn--secondary { background: #ffe4e9; border-color: #ffe4e9; color: #9f2645; }
+.btn-outline, .btn--outline { border-color: #c7cde0; color: #3730a3; }
+.btn-outline:hover, .btn--outline:hover { background: #3730a3; border-color: #3730a3; color: #fff; }
+
+.hero { position: relative; overflow: hidden; background: radial-gradient(ellipse at 78% 45%, #3d43a6 0%, #24285f 37%, #171b3a 100%); color: #fff; }
+.hero::before { content: ""; position: absolute; width: 360px; height: 360px; border: 1px solid rgba(255,255,255,.14); border-radius: 50%; right: 8%; top: -220px; box-shadow: 0 0 0 42px rgba(255,255,255,.035), 0 0 0 84px rgba(255,255,255,.025); pointer-events: none; }
+.hero-headline { color: #fff; font-family: var(--font-sans); font-weight: 800; letter-spacing: -.06em; }
+.hero-subtext { color: #d8dcf2; }
+.hero .btn-primary { background: #fb7185; border-color: #fb7185; color: #31131d; box-shadow: 0 8px 24px rgba(251,113,133,.25); }
+.hero .btn-primary:hover { background: #fda4af; border-color: #fda4af; }
+.hero-img-block { border: 1px solid rgba(255,255,255,.16); border-radius: 24px; background: rgba(255,255,255,.94); box-shadow: 0 24px 60px rgba(0,0,0,.22); }
+.hero-img-block--tall { transform: rotate(-2deg); }
+.hero-img-block--short:last-child { transform: rotate(2deg); }
+
+.section-title, .page-title, .about-hero-heading, .page-hero-title { font-family: var(--font-sans); font-weight: 800; }
+.section-link { color: #4f46e5; font-weight: 700; }
+.categories { background: #e9edfb; }
+.category-card { border: 1px solid #dce2f1; border-radius: 18px; background: #fff; box-shadow: 0 5px 18px rgba(23,32,51,.04); }
+.category-card:hover { border-color: #aaa8fb; box-shadow: var(--shadow-hover); transform: translateY(-4px); }
+.category-icon { color: #4f46e5; }
+.brand-story, .page-title-bar, .about-hero, .page-hero { background: #e9edfb; }
+.shipping-bar { background: #24285f; color: #fff; }
+.shipping-bar .shipping-item { color: #e1e5ff; }
+
+.product-card { overflow: hidden; border: 1px solid #e3e7f0; border-radius: 20px; background: #fff; box-shadow: var(--shadow-card); }
+.product-card:hover { border-color: #b8b6ff; box-shadow: var(--shadow-hover); transform: translateY(-5px); }
+.product-card__image-wrap, .product-card-image-wrap { background: linear-gradient(145deg, #edf0ff, #fce9ed); }
+.product-card__image, .product-card-img { transition: transform 300ms ease; }
+.product-badge { background: #fb7185; color: #30131a; border-radius: 999px; font-weight: 800; }
+.product-card__category, .product-card-category { color: #5b55cf; font-weight: 800; letter-spacing: .09em; }
+.product-card__name a, .product-card-name-link { font-family: var(--font-sans); font-weight: 700; }
+.product-card__price, .product-card-price, .product-price-large { color: #292276; font-family: var(--font-sans); font-weight: 800; }
+
+.order-summary-card, .contact-info-card, .success-card, .product-detail, .about-category-block { border: 1px solid #e1e6f0; border-radius: 22px; box-shadow: var(--shadow-card); }
+.form-input, .search-input, .filter-select { border-radius: 12px; border-color: #d6dcea; background-color: #fff; }
+.form-input:focus, .search-input:focus, .filter-select:focus { border-color: #7770ed; box-shadow: 0 0 0 4px rgba(79,70,229,.12); }
+.qty-btn, .qty-decrease-btn, .qty-increase-btn { border-radius: 10px; }
+.site-footer { background: #171b3a; color: #e5e7f3; }
+.site-footer h2, .site-footer h3, .site-footer h4, .site-footer .footer-heading { color: #fff; }
+.site-footer a { color: #c3c8e6; }
+.site-footer a:hover { color: #fb9bab; }
+.footer-bottom { border-color: rgba(255,255,255,.15); color: #a7acc9; }
+.toast { border-radius: 14px; box-shadow: 0 12px 36px rgba(16,24,40,.2); }
+
+@media (max-width: 768px) {
+  .hero { background: radial-gradient(ellipse at 78% 75%, #3d43a6 0%, #24285f 42%, #171b3a 100%); }
+  .hero-images { margin-top: 1.5rem; }
+  .hero-img-block { border-radius: 16px; }
+}
