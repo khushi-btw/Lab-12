@@ -14,14 +14,14 @@ This project was built as part of the Web Programming Lab 12 practical assignmen
 
 ## Visual Design
 
-The storefront uses a bold **Night Market** visual theme across all pages. A cool indigo and midnight palette anchors the interface, with coral highlights and soft blue surfaces for contrast. The home page features a dark gradient hero, while product cards and category panels use rounded corners, subtle shadows, and hover transitions. The shared responsive design lives in `css/style.css`, so the shop, product details, cart, checkout, contact, about, and confirmation pages all follow the same visual system.
+The storefront uses a bold **Bloom** visual theme across all pages. A soft rose and lilac palette anchors the interface, with berry accents and warm cream surfaces for contrast. The home page features a berry gradient hero, while product cards and category panels use rounded corners, subtle shadows, and hover transitions. The shared responsive design lives in `css/style.css`, so the shop, product details, cart, checkout, contact, about, and confirmation pages all follow the same visual system.
 
 ## Technologies Used
 
 | Technology | Role |
 |---|---|
 | **HTML5** | Semantic page structure across all 8 pages; accessibility attributes (`aria-*`, roles, labels) |
-| **CSS3** | Responsive Night Market design system with indigo, coral, and pale blue colors; custom properties, Flexbox, and Grid; no external UI library |
+| **CSS3** | Responsive Bloom design system with rose, lilac, berry, and cream colors; custom properties, Flexbox, and Grid; no external UI library |
 | **Vanilla JavaScript** | Product rendering, cart logic, form validation, XML parsing via `fetch()` and `DOMParser` |
 | **XML** | Product catalogue stored in `data/products.xml`; parsed at runtime — no hardcoded product arrays anywhere |
 
